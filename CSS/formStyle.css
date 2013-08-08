@@ -1,0 +1,32 @@
+/*
+Brian Stacks
+MiU 1307
+project3 6-5-13
+*/
+
+
+
+label.error{
+		 display: block;
+		 margin: 10px 0;
+		 color: red;
+		 padding-top: .5em;
+		 font-weight:bold; 
+}
+
+#addFormErrorLink{
+	
+	display: none;
+}
+
+input:required + label::after{
+	
+	content: "*";
+	color: red;
+}
+
+
+#rqf{
+	font-size: smaller:
+}
+
